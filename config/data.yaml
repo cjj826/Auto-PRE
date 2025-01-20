@@ -1,0 +1,4 @@
+# path_data: "data-Xsum/XSum-100-thre2500_v2.json"
+path_data: "data-NFQA/samples_NFCATS.json"
+format: 'json'
+path_prompt: "data/prompt_task.txt"

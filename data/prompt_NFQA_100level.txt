@@ -1,0 +1,7 @@
+###Task: Evaluate the answer of a given question. Directly output an integer between 0 and 100 to indicate the score of this answer. The higher the score, the higher the quality of the answer.
+
+###Question: {{original_text}}
+
+###Answer: {{#source}}
+
+###Score of the answer: 

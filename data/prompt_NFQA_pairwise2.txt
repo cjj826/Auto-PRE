@@ -1,0 +1,9 @@
+###Task: Given a question and two answers. Determine which one better answers the question.
+
+###Question: {{original_text}}
+
+###Answer one: {{#source1}}
+
+###Answer two: {{#source2}}
+
+###You only need to output `one` or `two` directly to indicate which answer is better. Output:

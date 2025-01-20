@@ -1,0 +1,7 @@
+###Task: Evaluate the summary of a given passage and determine how it summarizes the main points of the passage considering accuracy and conciseness. Directly output a number between 0 and 100 to indicate the score of this summary. The higher the score, the more accurate and concise the summary is.
+
+###Passage: {{original_text}}
+
+###Summary: {{#source}}
+
+###Score of the summary:

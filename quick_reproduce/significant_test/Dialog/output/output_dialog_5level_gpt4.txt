@@ -1,0 +1,302 @@
+model0: gpt4 ------ test: output_dialog...........
+human_scores is [3, 3, 4, 3, 3, 5, 5]
+model_scores is [5, 5, 5, 5, 5, 5, 5]
+0: 准确率为0.5, kendall系数为0, spearman系数为0
+human_scores is [3, 4, 4, 3, 5, 5, 3]
+model_scores is [2, 2, 5, 4, 4, 5, 4]
+1: 准确率为0.6875, kendall系数为0.375, spearman系数为0.4500000000000001
+human_scores is [4, 1, 4, 1, 5, 5, 4]
+model_scores is [5, 3, 5, 5, 5, 5, 5]
+2: 准确率为0.65625, kendall系数为0.5103103630798288, spearman系数为0.5400617248673217
+human_scores is [3, 3, 1, 3, 1, 5, 5]
+model_scores is [2, 4, 4, 5, 4, 5, 5]
+3: 准确率为0.75, kendall系数为0.5163977794943222, spearman系数为0.6123724356957946
+human_scores is [2, 4, 4, 4, 5, 4, 5]
+model_scores is [3, 4, 5, 4, 5, 5, 5]
+4: 准确率为0.8571428571428571, kendall系数为0.7142857142857143, spearman系数为0.7333333333333333
+human_scores is [1, 4, 4, 4, 5, 5, 5]
+model_scores is [1, 5, 5, 5, 5, 5, 5]
+5: 准确率为0.7, kendall系数为0.632455532033676, spearman系数为0.6614378277661476
+human_scores is [4, 4, 3, 3, 5, 5, 5]
+model_scores is [5, 4, 4, 4, 4, 5, 5]
+6: 准确率为0.71875, kendall系数为0.5051814855409226, spearman系数为0.5346338310781814
+human_scores is [2, 3, 4, 3, 3, 4, 3]
+model_scores is [2, 5, 5, 5, 4, 5, 5]
+7: 准确率为0.7857142857142857, kendall系数为0.6446583712203042, spearman系数为0.6708203932499369
+human_scores is [2, 2, 2, 2, 4, 5, 5]
+model_scores is [4, 3, 4, 4, 5, 5, 5]
+8: 准确率为0.9285714285714286, kendall系数为0.8280786712108251, spearman系数为0.9036961141150639
+human_scores is [3, 3, 4, 3, 5, 5, 5]
+model_scores is [5, 4, 5, 4, 5, 5, 5]
+9: 准确率为0.7666666666666667, kendall系数为0.6531972647421808, spearman系数为0.6831300510639732
+human_scores is [2, 3, 4, 3, 5, 4, 5]
+model_scores is [4, 4, 4, 4, 5, 5, 5]
+10: 准确率为0.8055555555555556, kendall系数为0.748455199183749, spearman系数为0.8160150140436474
+human_scores is [1, 4, 3, 3, 2, 4, 3]
+model_scores is [2, 3, 5, 4, 5, 4, 5]
+11: 准确率为0.4411764705882353, kendall系数为0.11764705882352941, spearman系数为0.049019607843137254
+human_scores is [4, 3, 2, 4, 4, 5, 4]
+model_scores is [5, 5, 4, 5, 5, 5, 5]
+12: 准确率为0.7, kendall系数为0.632455532033676, spearman系数为0.6756639246921762
+human_scores is [1, 4, 3, 4, 5, 4, 5]
+model_scores is [1, 5, 5, 5, 5, 5, 5]
+13: 准确率为0.6764705882352942, kendall系数为0.5940885257860046, spearman系数为0.6416889479197478
+human_scores is [4, 4, 4, 3, 3, 4, 5]
+model_scores is [5, 4, 5, 4, 4, 5, 4]
+14: 准确率为0.6071428571428571, kendall系数为0.23145502494313788, spearman系数为0.24152294576982397
+human_scores is [2, 4, 3, 2, 4, 5, 5]
+model_scores is [2, 5, 5, 5, 5, 5, 5]
+15: 准确率为0.6388888888888888, kendall系数为0.4811252243246882, spearman系数为0.5245543181639082
+human_scores is [2, 1, 2, 3, 4, 2, 4]
+model_scores is [2, 4, 5, 4, 5, 5, 5]
+16: 准确率为0.6764705882352942, kendall系数为0.3889222341312986, spearman系数为0.4383570037596046
+human_scores is [4, 4, 4, 2, 5, 3, 3]
+model_scores is [4, 4, 4, 2, 4, 4, 4]
+17: 准确率为0.6764705882352942, kendall系数为0.5940885257860046, spearman系数为0.6416889479197478
+human_scores is [4, 4, 1, 2, 3, 4, 5]
+model_scores is [4, 5, 4, 4, 4, 5, 5]
+18: 准确率为0.7777777777777778, kendall系数为0.6804138174397718, spearman系数为0.7489308618940976
+human_scores is [3, 2, 5, 5, 5, 5, 5]
+model_scores is [3, 5, 5, 5, 3, 4, 4]
+19: 准确率为0.5, kendall系数为0.0, spearman系数为0.023570226039551587
+human_scores is [5, 1, 4, 4, 5, 4, 5]
+model_scores is [5, 5, 5, 5, 5, 5, 5]
+20: 准确率为0.5, kendall系数为0, spearman系数为0
+human_scores is [1, 3, 4, 4, 3, 5, 5]
+model_scores is [1, 4, 4, 4, 4, 5, 4]
+21: 准确率为0.7777777777777778, kendall系数为0.7106690545187014, spearman系数为0.7554831017177898
+human_scores is [1, 3, 4, 4, 5, 5, 5]
+model_scores is [1, 5, 5, 5, 5, 5, 5]
+22: 准确率为0.6764705882352942, kendall系数为0.5940885257860046, spearman系数为0.6416889479197478
+human_scores is [5, 4, 5, 4, 4, 5, 5]
+model_scores is [5, 4, 4, 4, 5, 5, 4]
+23: 准确率为0.5833333333333334, kendall系数为0.16666666666666669, spearman系数为0.16666666666666666
+human_scores is [3, 3, 1, 3, 5, 2, 5]
+model_scores is [4, 4, 5, 3, 4, 4, 5]
+24: 准确率为0.47058823529411764, kendall系数为0.06482037235521644, spearman系数为0.06262242910851494
+human_scores is [2, 3, 4, 4, 2, 4, 5]
+model_scores is [4, 4, 5, 5, 5, 5, 5]
+25: 准确率为0.7058823529411765, kendall系数为0.5368754921931593, spearman系数为0.5798918087056598
+human_scores is [5, 4, 5, 4, 1, 4, 4]
+model_scores is [5, 4, 5, 5, 5, 5, 4]
+26: 准确率为0.5714285714285714, kendall系数为0.1690308509457033, spearman系数为0.17638342073763935
+human_scores is [2, 4, 5, 3, 5, 4, 5]
+model_scores is [4, 5, 5, 4, 5, 5, 5]
+27: 准确率为0.7941176470588235, kendall系数为0.7669649888473704, spearman系数为0.828416869579514
+human_scores is [3, 1, 3, 4, 4, 5, 5]
+model_scores is [4, 4, 5, 5, 5, 5, 5]
+28: 准确率为0.75, kendall系数为0.6708203932499369, spearman系数为0.7313724498348011
+human_scores is [2, 1, 3, 1, 5, 5, 5]
+model_scores is [4, 4, 4, 5, 4, 4, 4]
+29: 准确率为0.35294117647058826, kendall系数为0.49507377148833726, spearman系数为0.5347407899331232
+human_scores is [3, 4, 5, 3, 2, 4, 5]
+model_scores is [3, 3, 3, 3, 4, 4, 5]
+30: 准确率为0.5555555555555556, kendall系数为0.12598815766974242, spearman系数为0.1535737792084878
+human_scores is [3, 1, 3, 4, 4, 5, 4]
+model_scores is [4, 4, 5, 5, 5, 5, 5]
+31: 准确率为0.7647058823529411, kendall系数为0.6902684899626333, spearman系数为0.7455751826215626
+human_scores is [2, 4, 1, 3, 1, 2, 4]
+model_scores is [2, 4, 4, 4, 4, 5, 4]
+32: 准确率为0.5, kendall系数为0.0, spearman系数为0.0
+human_scores is [1, 1, 5, 4, 5, 5, 5]
+model_scores is [1, 4, 5, 5, 5, 5, 5]
+33: 准确率为0.8571428571428571, kendall系数为0.8058229640253802, spearman系数为0.8695819912499182
+human_scores is [3, 1, 5, 3, 5, 4, 5]
+model_scores is [5, 4, 5, 4, 5, 5, 5]
+34: 准确率为0.7647058823529411, kendall系数为0.6902684899626333, spearman系数为0.7455751826215626
+human_scores is [3, 5, 5, 4, 5, 4, 5]
+model_scores is [5, 5, 5, 4, 5, 5, 5]
+35: 准确率为0.6071428571428571, kendall系数为0.3273268353539886, spearman系数为0.34156502553198653
+human_scores is [3, 4, 4, 5, 5, 5, 5]
+model_scores is [4, 5, 5, 5, 5, 5, 5]
+36: 准确率为0.7142857142857143, kendall系数为0.6546536707079772, spearman系数为0.6831300510639731
+human_scores is [1, 3, 1, 3, 4, 5, 5]
+model_scores is [3, 5, 4, 3, 5, 5, 5]
+37: 准确率为0.7777777777777778, kendall系数为0.629940788348712, spearman系数为0.7473923921479739
+human_scores is [3, 4, 4, 4, 5, 5, 5]
+model_scores is [5, 5, 5, 5, 5, 5, 5]
+38: 准确率为0.5, kendall系数为0, spearman系数为0
+human_scores is [2, 4, 4, 4, 5, 5, 5]
+model_scores is [5, 5, 5, 5, 5, 5, 5]
+39: 准确率为0.5, kendall系数为0, spearman系数为0
+human_scores is [4, 3, 4, 4, 4, 5, 5]
+model_scores is [5, 4, 5, 5, 5, 5, 5]
+40: 准确率为0.7142857142857143, kendall系数为0.6546536707079772, spearman系数为0.6831300510639731
+human_scores is [1, 3, 4, 4, 5, 5, 5]
+model_scores is [4, 5, 5, 5, 4, 5, 4]
+41: 准确率为0.4411764705882353, kendall系数为0.140028008402801, spearman系数为0.15124753549550501
+human_scores is [3, 4, 3, 1, 4, 5, 5]
+model_scores is [5, 5, 4, 5, 4, 4, 5]
+42: 准确率为0.4166666666666667, kendall系数为0.20412414523193154, spearman系数为0.22254954928463114
+human_scores is [1, 3, 2, 1, 4, 5, 4]
+model_scores is [1, 2, 5, 4, 5, 5, 5]
+43: 准确率为0.7631578947368421, kendall系数为0.5923488777590923, spearman系数为0.702250809666987
+human_scores is [4, 4, 3, 4, 5, 5, 5]
+model_scores is [4, 4, 5, 5, 4, 5, 5]
+44: 准确率为0.5, kendall系数为0.0, spearman系数为0.0
+human_scores is [1, 3, 2, 4, 4, 5, 5]
+model_scores is [1, 4, 3, 4, 5, 5, 4]
+45: 准确率为0.8421052631578947, kendall系数为0.7233393492970543, spearman系数为0.7812713323158736
+human_scores is [3, 1, 3, 4, 3, 1, 3]
+model_scores is [5, 4, 4, 4, 5, 5, 5]
+46: 准确率为0.42857142857142855, kendall系数为0.1543033499620919, spearman系数为0.16101529717988264
+human_scores is [1, 4, 4, 4, 5, 4, 5]
+model_scores is [1, 4, 4, 4, 5, 5, 5]
+47: 准确率为0.9285714285714286, kendall系数为0.8280786712108251, spearman系数为0.8391463916782737
+human_scores is [1, 1, 3, 1, 4, 5, 5]
+model_scores is [4, 5, 5, 4, 4, 5, 5]
+48: 准确率为0.6764705882352942, kendall系数为0.42008402520840293, spearman系数为0.45374260648651504
+human_scores is [1, 4, 3, 1, 3, 5, 5]
+model_scores is [4, 4, 4, 2, 4, 4, 4]
+49: 准确率为0.6388888888888888, kendall系数为0.4811252243246882, spearman系数为0.5245543181639082
+human_scores is [1, 3, 4, 1, 4, 5, 4]
+model_scores is [1, 5, 5, 2, 5, 5, 5]
+50: 准确率为0.7941176470588235, kendall系数为0.7312724241271307, spearman系数为0.816830049016339
+human_scores is [3, 5, 4, 5, 5, 5, 5]
+model_scores is [3, 5, 5, 5, 5, 5, 5]
+51: 准确率为0.7727272727272727, kendall系数为0.7385489458759965, spearman系数为0.7637626158259733
+human_scores is [3, 1, 3, 4, 3, 5, 5]
+model_scores is [4, 4, 5, 5, 5, 5, 5]
+52: 准确率为0.7352941176470589, kendall系数为0.6135719910778963, spearman系数为0.6627334956636112
+human_scores is [3, 4, 4, 1, 5, 5, 4]
+model_scores is [5, 5, 5, 5, 5, 5, 5]
+53: 准确率为0.5, kendall系数为0, spearman系数为0
+human_scores is [1, 2, 3, 1, 5, 4, 5]
+model_scores is [2, 4, 4, 4, 5, 4, 5]
+54: 准确率为0.8421052631578947, kendall系数为0.7970811413304555, spearman系数为0.8621558775544281
+human_scores is [3, 3, 4, 4, 4, 5, 5]
+model_scores is [5, 5, 5, 4, 5, 5, 5]
+55: 准确率为0.5, kendall系数为0.0, spearman系数为0.0
+human_scores is [1, 1, 1, 1, 4, 4, 4]
+model_scores is [5, 5, 4, 3, 5, 5, 5]
+56: 准确率为0.75, kendall系数为0.5222329678670936, spearman系数为0.5400617248673217
+human_scores is [3, 4, 3, 3, 4, 5, 5]
+model_scores is [4, 5, 5, 3, 5, 5, 5]
+57: 准确率为0.75, kendall系数为0.6030226891555273, spearman系数为0.6599663291074445
+human_scores is [1, 1, 4, 4, 3, 5, 5]
+model_scores is [2, 5, 5, 5, 5, 5, 5]
+58: 准确率为0.6388888888888888, kendall系数为0.4811252243246882, spearman系数为0.5245543181639082
+human_scores is [3, 4, 4, 4, 1, 5, 5]
+model_scores is [4, 4, 5, 5, 4, 5, 5]
+59: 准确率为0.7941176470588235, kendall系数为0.700140042014005, spearman系数为0.7562376774775251
+human_scores is [3, 1, 5, 1, 4, 4, 4]
+model_scores is [4, 4, 4, 2, 4, 4, 4]
+60: 准确率为0.6470588235294118, kendall系数为0.49507377148833726, spearman系数为0.5347407899331232
+human_scores is [3, 5, 3, 3, 4, 5, 5]
+model_scores is [5, 4, 5, 5, 5, 5, 5]
+61: 准确率为0.36666666666666664, kendall系数为0.4216370213557839, spearman系数为0.4409585518440984
+human_scores is [4, 4, 3, 3, 4, 5, 5]
+model_scores is [5, 5, 3, 5, 5, 5, 5]
+62: 准确率为0.65625, kendall系数为0.5103103630798288, spearman系数为0.5400617248673217
+human_scores is [1, 1, 2, 3, 4, 5, 5]
+model_scores is [1, 5, 5, 5, 4, 5, 5]
+63: 准确率为0.6052631578947368, kendall系数为0.27668578554642986, spearman系数为0.3175264481385601
+human_scores is [1, 3, 4, 4, 4, 5, 5]
+model_scores is [4, 5, 5, 5, 5, 5, 5]
+64: 准确率为0.6764705882352942, kendall系数为0.5940885257860046, spearman系数为0.6416889479197478
+human_scores is [1, 3, 4, 3, 5, 5, 5]
+model_scores is [4, 5, 5, 5, 5, 5, 5]
+65: 准确率为0.6764705882352942, kendall系数为0.5940885257860046, spearman系数为0.6416889479197478
+human_scores is [3, 3, 3, 3, 3, 4, 5]
+model_scores is [4, 5, 5, 5, 5, 5, 4]
+66: 准确率为0.3181818181818182, kendall系数为0.3813850356982369, spearman系数为0.3944053188733077
+human_scores is [1, 1, 4, 1, 4, 5, 5]
+model_scores is [3, 4, 4, 2, 5, 5, 5]
+67: 准确率为0.90625, kendall系数为0.7882407813680822, spearman系数为0.8614283623897068
+human_scores is [1, 1, 3, 4, 3, 4, 5]
+model_scores is [2, 3, 4, 4, 5, 5, 4]
+68: 准确率为0.7222222222222222, kendall系数为0.4573295603800236, spearman系数为0.5770297860846154
+human_scores is [3, 4, 4, 3, 4, 5, 5]
+model_scores is [5, 5, 5, 4, 5, 5, 5]
+69: 准确率为0.65625, kendall系数为0.5103103630798288, spearman系数为0.5400617248673217
+human_scores is [1, 1, 3, 1, 5, 5, 5]
+model_scores is [4, 4, 5, 4, 5, 5, 5]
+70: 准确率为0.9, kendall系数为0.894427190999916, spearman系数为0.9354143466934853
+human_scores is [1, 3, 4, 3, 4, 5, 5]
+model_scores is [3, 4, 5, 2, 5, 5, 5]
+71: 准确率为0.8333333333333334, kendall系数为0.7302967433402215, spearman系数为0.8506138303796513
+human_scores is [1, 1, 4, 1, 4, 4, 4]
+model_scores is [3, 3, 4, 3, 3, 5, 5]
+72: 准确率为0.875, kendall系数为0.6943650748294137, spearman系数为0.724568837309472
+human_scores is [1, 4, 4, 4, 4, 5, 5]
+model_scores is [2, 4, 4, 4, 4, 5, 5]
+73: 准确率为1.0, kendall系数为1.0, spearman系数为0.9999999999999999
+human_scores is [4, 1, 1, 1, 5, 5, 5]
+model_scores is [4, 4, 4, 4, 5, 5, 4]
+74: 准确率为0.7666666666666667, kendall系数为0.6531972647421808, spearman系数为0.6831300510639732
+human_scores is [4, 1, 3, 3, 5, 4, 5]
+model_scores is [1, 5, 5, 4, 5, 5, 5]
+75: 准确率为0.5277777777777778, kendall系数为0.07106690545187015, spearman系数为0.11446713662390753
+human_scores is [1, 1, 4, 1, 4, 4, 5]
+model_scores is [1, 5, 5, 5, 5, 5, 5]
+76: 准确率为0.6333333333333333, kendall系数为0.4216370213557839, spearman系数为0.4409585518440984
+human_scores is [3, 3, 4, 1, 4, 5, 5]
+model_scores is [4, 5, 5, 4, 5, 5, 5]
+77: 准确率为0.75, kendall系数为0.6708203932499369, spearman系数为0.7313724498348011
+human_scores is [3, 5, 5, 3, 5, 4, 5]
+model_scores is [4, 5, 5, 5, 5, 5, 5]
+78: 准确率为0.6785714285714286, kendall系数为0.545544725589981, spearman系数为0.569275042553311
+human_scores is [2, 4, 4, 4, 5, 5, 5]
+model_scores is [5, 5, 5, 5, 5, 5, 4]
+79: 准确率为0.36666666666666664, kendall系数为0.4216370213557839, spearman系数为0.4409585518440984
+human_scores is [1, 1, 1, 1, 5, 4, 3]
+model_scores is [5, 5, 5, 5, 5, 5, 5]
+80: 准确率为0.5, kendall系数为0, spearman系数为0
+human_scores is [1, 1, 4, 1, 3, 4, 4]
+model_scores is [3, 2, 5, 4, 4, 5, 5]
+81: 准确率为0.9666666666666667, kendall系数为0.8767140075192092, spearman系数为0.9297198959726096
+human_scores is [2, 1, 4, 4, 4, 5, 5]
+model_scores is [5, 5, 5, 5, 5, 5, 5]
+82: 准确率为0.5, kendall系数为0, spearman系数为0
+human_scores is [1, 1, 3, 3, 4, 4, 4]
+model_scores is [1, 4, 4, 4, 4, 4, 4]
+83: 准确率为0.65625, kendall系数为0.5103103630798288, spearman系数为0.5400617248673217
+human_scores is [4, 4, 3, 4, 4, 5, 5]
+model_scores is [4, 4, 5, 4, 4, 5, 5]
+84: 准确率为0.6428571428571429, kendall系数为0.3086066999241838, spearman系数为0.3220305943597653
+human_scores is [1, 3, 1, 3, 4, 5, 5]
+model_scores is [1, 4, 5, 3, 5, 4, 4]
+85: 准确率为0.5833333333333334, kendall系数为0.17149858514250885, spearman系数为0.18272609892679484
+human_scores is [2, 1, 2, 2, 4, 4, 4]
+model_scores is [5, 4, 4, 5, 5, 5, 5]
+86: 准确率为0.7666666666666667, kendall系数为0.6531972647421808, spearman系数为0.6831300510639732
+human_scores is [3, 4, 4, 4, 4, 4, 5]
+model_scores is [5, 5, 5, 5, 5, 5, 5]
+87: 准确率为0.5, kendall系数为0, spearman系数为0
+human_scores is [3, 1, 1, 1, 1, 4, 1]
+model_scores is [5, 4, 4, 4, 5, 4, 4]
+88: 准确率为0.5909090909090909, kendall系数为0.19069251784911845, spearman系数为0.19720265943665385
+human_scores is [1, 1, 4, 2, 4, 4, 4]
+model_scores is [4, 3, 5, 3, 5, 4, 5]
+89: 准确率为0.8571428571428571, kendall系数为0.6681531047810609, spearman系数为0.7694875639743056
+human_scores is [1, 4, 4, 4, 4, 5, 5]
+model_scores is [1, 4, 5, 5, 4, 5, 5]
+90: 准确率为0.8571428571428571, kendall系数为0.7142857142857143, spearman系数为0.7333333333333333
+human_scores is [3, 4, 3, 3, 3, 3, 5]
+model_scores is [4, 5, 5, 5, 4, 5, 5]
+91: 准确率为0.6818181818181818, kendall系数为0.3813850356982369, spearman系数为0.3944053188733077
+human_scores is [1, 3, 4, 3, 5, 4, 4]
+model_scores is [4, 5, 5, 5, 5, 5, 5]
+92: 准确率为0.6764705882352942, kendall系数为0.5940885257860046, spearman系数为0.6416889479197478
+human_scores is [3, 3, 3, 3, 3, 5, 5]
+model_scores is [5, 5, 5, 5, 5, 5, 5]
+93: 准确率为0.5, kendall系数为0, spearman系数为0
+human_scores is [1, 1, 4, 4, 1, 5, 5]
+model_scores is [2, 4, 5, 5, 5, 5, 5]
+94: 准确率为0.75, kendall系数为0.6030226891555273, spearman系数为0.6599663291074445
+human_scores is [1, 4, 2, 4, 4, 5, 5]
+model_scores is [3, 4, 4, 4, 5, 4, 5]
+95: 准确率为0.7647058823529411, kendall系数为0.583383351196948, spearman系数为0.6262242910851494
+human_scores is [4, 1, 3, 3, 3, 5, 4]
+model_scores is [4, 4, 3, 5, 4, 4, 5]
+96: 准确率为0.5588235294117647, kendall系数为0.12964074471043288, spearman系数为0.16699314428937317
+human_scores is [3, 1, 4, 4, 4, 4, 5]
+model_scores is [4, 4, 4, 5, 5, 4, 5]
+97: 准确率为0.7666666666666667, kendall系数为0.5962847939999439, spearman系数为0.637022057270606
+human_scores is [1, 3, 4, 4, 3, 5, 4]
+model_scores is [1, 2, 4, 4, 4, 4, 4]
+98: 准确率为0.7941176470588235, kendall系数为0.7312724241271307, spearman系数为0.7701540462154054
+human_scores is [1, 1, 3, 3, 3, 5, 5]
+model_scores is [3, 3, 5, 4, 4, 5, 4]
+99: 准确率为0.84375, kendall系数为0.6875, spearman系数为0.7500000000000002
+平均准确率为0.6732130412372288, 平均kendall系数为0.46864754480501153, 平均spearman系数为0.5044386303455637

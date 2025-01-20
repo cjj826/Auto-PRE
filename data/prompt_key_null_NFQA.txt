@@ -1,0 +1,15 @@
+###Task: Evaluate two answers of a given question and determine which one better answers the question considering accuracy and conciseness. Please provide a comprehensive explanation of your evaluation and output ‘one‘ or ‘two‘ at the end of your answer to indicate which answer is better. Then in a new line, please output a keyword from ['null', 'low', 'medium', 'high', 'expert'] to indicate your confidence in your evaluation:
+
+- 'null' means you have significant skepticism about your evaluation.
+- 'low' means you have a weak belief in your evaluation.
+- 'medium' means you have a balanced and netural position in your evaluation, neither overly confident nor too skeptical.
+- 'high' means you have a strong belief in your evaluation.
+- 'expert' means you have an unshakeable certainly in your evaluation.
+
+###Question: {{original_text}}
+
+###Answer one: {{#source1}}
+
+###Answer two: {{#source2}}
+
+###Output:

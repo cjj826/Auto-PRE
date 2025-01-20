@@ -1,0 +1,34 @@
+model_name: "vicuna-7b"
+api_type: "vicuna-7b"
+max_tries: 5
+model_path: "./evaluation/model/vicuna-v1.1"
+---
+model_name: "chatglm3-6b"
+api_type: "chatglm3-6b"
+max_tries: 5
+model_path: "./evaluation/model/chatglm3_6B"
+---
+model_name: "baichuan2-13b"
+api_type: "baichuan2-13b"
+max_tries: 5
+model_path: "./evaluation/model/baichuan2-13B"
+---
+model_name: "fastchat-t5"
+api_type: "fastchat"
+max_tries: 5
+model_path: "./evaluation/model/fastchat-t5"
+---
+model_name: "gpt-3.5-turbo"
+api_type: "openai"
+api_key: "your_api_key"
+max_tries: 5
+---
+model_name: "chatglm_pro"
+api_type: "glm"
+api_key: "your_api_key"
+max_tries: 5
+---
+model_name: "gpt-4"
+api_type: "openai"
+api_key: "your_api_key"
+max_tries: 5

@@ -1,0 +1,13 @@
+model_name: "alpaca-7b"
+---
+model_name: "ChatGLM2-6B"
+---
+model_name: "chatgpt"
+---
+model_name: "claude"
+---
+model_name: "fastchat-t5-3b"
+---
+model_name: "RWKV-4-Raven-7B-v11"
+---
+model_name: "vicuna-7b"

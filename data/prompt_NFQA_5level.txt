@@ -1,0 +1,13 @@
+###Task: Evaluate the answer of a given question. Directly output an integer between 1 and 5 to indicate the score of this answer:
+
+- 1 means the answer is irrelevant to the question,
+- 2 means the answer is related to the question, but does not solve the question,
+- 3 means the answer only solves a part of the question,
+- 4 means the answer solve majority aspects of the question, but not perfect,
+- 5 means the answer is perfect to solve the question
+
+###Question: {{original_text}}
+
+###Answer: {{#source}}
+
+###Score of the answer:

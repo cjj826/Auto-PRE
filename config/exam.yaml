@@ -1,0 +1,18 @@
+source: 'same'
+mode: 'pairwise'
+parser_type: "str"
+conduct_reference_exam: False
+conduct_inner_consistency_exam: False
+# exam: consistency, self_confidence, pertinence, all, human
+exam: pertinence
+dev: True
+# consistency
+metric_pointwise: "EM"
+p_gold: 0.6
+p_cons: 0.6
+MSE_acc: 1.
+MSE_cons: 1.
+path_exam_same_data: "data/exam_same_samples.json"
+format_exam_same_data: "json"
+path_exam_others_data: ""
+format_exam_others_data: "csv"

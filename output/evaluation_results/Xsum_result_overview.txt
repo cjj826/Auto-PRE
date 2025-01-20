@@ -1,0 +1,7 @@
+model chatgpt: 4.242000000000001
+model claude: 4.236
+model ChatGLM2-6B: 3.9720000000000004
+model fastchat-t5-3b: 3.802
+model RWKV-4-Raven-7B-v11: 1.642
+model alpaca-7b: 3.031999999999999
+model vicuna-7b: 4.042

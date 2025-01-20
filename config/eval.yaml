@@ -1,0 +1,9 @@
+strategy: "full"
+mode: "pointwise"
+weighted_method: "uniform"
+# path_eval_prompt: "data/prompt_eval_pairwise1.txt"
+path_eval_prompt: "data/prompt_eval_5level.txt"
+# path_eval_prompt: "data/prompt_eval_100level.txt"
+parser_type: "int"
+nominal_list: one,tie,two
+nominal_ticks: -1,0,1
