@@ -91,7 +91,7 @@ with open(annotation_preference_path) as tie:
 # r 5-level w=1
 # r 100-level w=4
 
-mode_key = "r"
+mode_key = "p"
 level = "5-level"
 
 filter_mode = {
@@ -123,14 +123,7 @@ filter_mode = {
             "gpt-4":0.8952
         }   
     },
-    "s":{
-        "evalutors": ['baichuan2-13b', 'fastchat-t5', 'gpt-3.5-turbo', 'chatglm_pro', 'gpt-4'],
-        "mode": 1,
-        "weights":{
-            
-        }
-    },
-    "r":{
+    "p":{
         "evalutors": ['chatglm3-6b', 'fastchat-t5', 'gpt-3.5-turbo', 'chatglm_pro', 'gpt-4'],
         "mode": 1,
         "weights": {
@@ -142,7 +135,14 @@ filter_mode = {
             "qianwen": 0.985
         }
     },
-    "csr":{
+    "s":{
+        "evalutors": ['baichuan2-13b', 'fastchat-t5', 'gpt-3.5-turbo', 'chatglm_pro', 'gpt-4'],
+        "mode": 1,
+        "weights":{
+            
+        }
+    },
+    "cps":{
         "evalutors": ['fastchat-t5', 'chatglm_pro', 'gpt-3.5-turbo', 'gpt-4'],
         "mode": 2,
         "weights": {

@@ -126,13 +126,6 @@ filter_mode = {
             "qianwen":0.8366666666666667
         }   
     },
-    "s":{
-        "evalutors": ['baichuan2-13b', 'fastchat-t5-3b', 'chatglm_pro', 'gpt4'],
-        "mode": 1,
-        "weights":{
-            
-        }
-    },
     "p":{
         "evalutors": ['fastchat-t5-3b', 'chatgpt', 'chatglm_pro', 'gpt4'],
         "mode": 4,
@@ -142,6 +135,13 @@ filter_mode = {
             "chatgpt":0.725,
             "gpt4":0.8525,
             'qianwen': 0.925
+        }
+    },
+    "s":{
+        "evalutors": ['baichuan2-13b', 'fastchat-t5-3b', 'chatglm_pro', 'gpt4'],
+        "mode": 1,
+        "weights":{
+            
         }
     },
     "cps":{

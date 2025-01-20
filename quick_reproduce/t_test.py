@@ -19,7 +19,7 @@ if __name__ == '__main__':
     # modes = ['5-level', '100-level']
     modes = ['5level', '100level', 'pairwise']
     # modes = ['pairwise']
-    ms = ['csr', 'g', 'wo']
+    ms = ['cps', 'g', 'wo']
 
     task = tasks[2]
 

@@ -15,13 +15,11 @@ pip install -r requirements.txt
 python main.py --config config/main.yaml
 ```
 
-#### Framework
+#### Code Structure
 
-Following figure shows the framework of our evaluation framework. 
+Following figure shows the structure of Auto-PRE. 
 
-![image-20240616153642512](./picuture/whole.png)
-
-
+<img src="./picuture/whole.png" alt="image-20240616153642512" style="zoom: 50%;" />
 
 The "config" folder contains various parameter configuration files, managed in YAML format, which primarily consists of key-value pairs and supports data structures such as lists and dictionaries. In lists, elements are separated by hyphens ('-'), and in key-value pairs, keys and values are separated by a colon followed by a space (': '). The contents and functionalities of each configuration file are as follows:
 
@@ -40,17 +38,21 @@ The "PRE" folder includes the main code parts of the system, with functionalitie
 4. 'exam.py' pertains to PRE’s evaluator qualification assessment subsystem, where 'EXAM' executes the qualification assessments, with functionalities such as 'init' for initializing various parameters, 'load_exam_prompts' for loading prompts for qualification tests, 'calculate_metric' for computing metrics for final selection, and 'conduct_exam' for performing the assessments and returning a list of qualified evaluator models.
 5. 'process.py' is responsible for orchestrating the entire PRE system, starting by loading the dataset for the task to be tested, then collecting answers from the test model to build a set of answers to be evaluated, followed by conducting qualification assessments on the candidate evaluator models, using qualified models to evaluate the test answer set, and finally integrating all evaluator models' results to derive the test model’s scores and rankings.
 
-Our automated qualification exam is represented by 'exam.py'. Following figure shows the framework of our exam.
+### Core Part
 
-![研究方案2](./picuture/framework.jpg)
+Our automatic qualification exam is represented by 'exam.py'. Following figure shows the framework of our exam.
 
- (1) **Consistency** filters by swapping the positions of answers within prompts and calculating the proportion of consistent output by the LLM before and after the swap; 
+<img src="./picuture/framework.png" alt="研究方案2" style="zoom: 33%;" />
 
-(2) **Self-Confidence** selects based on whether the  LLM shows higher confidence level on easier question set when it faces two question sets with the same task format but objectively different difficulties; 
+We extract the basic yet critical characteristics from different judgment stages based on previous research and experimental observations:
 
-(3) **Pertinence** selects based on whether the LLM can evaluate based on the pertinence of the answers to the question without affected by the superficial quality of the answers themselves. 
+(1) Consistency: Upon receiving the judgment \textbf{instruction}, the evaluator should have no preset biases to ensure the objectivity and consistency; 
 
-On both summary generation and non factoidquestion-answering tasks, Auto-PRE achieves performance comparable with state-of-the-art methods at a much lower cost.
+(2) Pertinence: When judging the specific \textbf{content}, the evaluator is expected to have a thorough understanding of the task and identify the core factors that truly impact the quality of the answers (e.g., pertinence to given question), rather than relying solely on secondary or superficial factors;
 
+(3) Self-Confidence: After providing the judgment \textbf{response}, evaluators should have a reasonable level of confidence to reflect the reliability. 
 
+Experiment results on three tasks, summary generation, non-factoid question-answering, and dialogue generation, indicate that our Auto-PRE can achieve state-of-the-art performance at a much lower cost.
 
+### Reproduce
+To quickly reproduce the results of our paper, please run the code in the quick_reproduce directory!
