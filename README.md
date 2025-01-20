@@ -46,13 +46,13 @@ Our automatic qualification exam is represented by 'exam.py'. Following figure s
 
 We extract the basic yet critical characteristics from different judgment stages based on previous research and experimental observations:
 
-(1) Consistency: Upon receiving the judgment \textbf{instruction}, the evaluator should have no preset biases to ensure the objectivity and consistency; 
+(1) Consistency: Upon receiving **the judgment instruction**, the evaluator should have no preset biases to ensure the objectivity and consistency; 
 
-(2) Pertinence: When judging the specific \textbf{content}, the evaluator is expected to have a thorough understanding of the task and identify the core factors that truly impact the quality of the answers (e.g., pertinence to given question), rather than relying solely on secondary or superficial factors;
+(2) Pertinence: When **judging the specific content**, the evaluator is expected to have a thorough understanding of the task and identify the core factors that truly impact the quality of the answers (e.g., pertinence to given question), rather than relying solely on secondary or superficial factors;
 
-(3) Self-Confidence: After providing the judgment \textbf{response}, evaluators should have a reasonable level of confidence to reflect the reliability. 
+(3) Self-Confidence: After providing the **judgment response**, evaluators should have a reasonable level of confidence to reflect the reliability. 
 
 Experiment results on three tasks, summary generation, non-factoid question-answering, and dialogue generation, indicate that our Auto-PRE can achieve state-of-the-art performance at a much lower cost.
 
 ### Reproduce
-To quickly reproduce the results of our paper, please run the code in the quick_reproduce directory!
+To quickly reproduce the results of our paper, you can run the code in the quick_reproduce directory.
