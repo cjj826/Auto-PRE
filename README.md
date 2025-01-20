@@ -1,7 +1,7 @@
 ## Auto-RPE: An Automatic and Cost-Efficient Peer-Review Framework for Language Generation Evaluation
 This is an automatic LLM evaluation framework based on peer review.
 
-#### Get Started
+### Get Started
 
 **Install nessary package:**
 
@@ -15,11 +15,11 @@ pip install -r requirements.txt
 python main.py --config config/main.yaml
 ```
 
-#### Code Structure
+### Code Structure
 
 Following figure shows the structure of Auto-PRE. 
 
-<img src="./picuture/whole.png" alt="image-20240616153642512" style="zoom: 50%;" />
+![image-20240616153642512](./picuture/whole.png)
 
 The "config" folder contains various parameter configuration files, managed in YAML format, which primarily consists of key-value pairs and supports data structures such as lists and dictionaries. In lists, elements are separated by hyphens ('-'), and in key-value pairs, keys and values are separated by a colon followed by a space (': '). The contents and functionalities of each configuration file are as follows:
 
@@ -42,7 +42,7 @@ The "PRE" folder includes the main code parts of the system, with functionalitie
 
 Our automatic qualification exam is represented by 'exam.py'. Following figure shows the framework of our exam.
 
-<img src="./picuture/framework.png" alt="研究方案2" style="zoom: 33%;" />
+![](./picuture/framework.png)
 
 We extract the basic yet critical characteristics from different judgment stages based on previous research and experimental observations:
 
