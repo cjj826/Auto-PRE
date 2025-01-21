@@ -87,14 +87,14 @@ with open(annotation_preference_path) as tie:
         key = str(task_id) + "-" + str(x) + "-" + str(y)
         tie_res[key] = res
 
-mode_key = "cps"
-level = "5-level"
+mode_key = "g"
+level = "100-level"
 
-## acc
+## acc best
 # p 5-level w=1
 # cps 100-level w=1
 
-## spearman
+## spearman best
 # cps 5-level w=1
 # cps 100-level w=1
 

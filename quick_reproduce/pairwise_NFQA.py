@@ -82,6 +82,8 @@ answers_agg = dict()
 
 mode_key = "cps"
 
+# cps w = 3
+
 filter_mode = {
     "wo":{
         "evalutors": ['vicuna-7b', 'chatglm3-6b', 'baichuan2-13b', 'fastchat-t5-3b', 'chatgpt', 'chatglm_pro', 'gpt4'],
@@ -128,7 +130,7 @@ filter_mode = {
     },
     "cps":{
         "evalutors": ['chatglm_pro', 'gpt4'],
-        "mode": 2,
+        "mode": 3,
         "weights": {
             "chatglm_pro":(0.9175+0.7481+1)/3,
             "chatgpt":(0.8025+0.5876+1)/3,
@@ -444,7 +446,7 @@ for i in ii_list:
     records_agg.append(ms)
     outputs_llm.append(l)
 acc_agg = cnt_agg / float(len(aggs))
-path_out = f"{base_dir}/data-NFQA/t_test/{mode_key}_pairwise.json"
+path_out = f"{base_dir}/quick_reproduce/significant_test/NF_CATS/{mode_key}_pairwise.json"
 f_out = open(path_out, "w")
 line = {"scores": scores}
 line = json.dumps(line)

@@ -3,7 +3,7 @@ import json
 import math
 import os
 from tqdm import tqdm
-from utils import read_from_tsv
+import csv
 from scipy.stats import spearmanr, kendalltau
 import os
 import sys
@@ -11,6 +11,17 @@ base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(base_dir)
 annotation_pointwise_path = base_dir + "/data-Xsum/annotation/pointwise.json"
 annotation_preference_path = base_dir + "/data-Xsum/annotation/preference.json"
+
+def read_from_tsv(file_path: str, column_names: list) -> list:
+    csv.register_dialect('tsv_dialect', delimiter='\t', quoting=csv.QUOTE_ALL)
+    with open(file_path, "r") as wf:
+        reader = csv.DictReader(wf, fieldnames=column_names, dialect='tsv_dialect')
+        datas = []
+        for row in reader:
+            data = dict(row)
+            datas.append(data)
+    csv.unregister_dialect('tsv_dialect')
+    return datas
 
 def cal(x, y):
     assert len(x) == len(y)
@@ -83,16 +94,16 @@ with open(annotation_preference_path) as tie:
             res = -res
         key = str(task_id) + "-" + str(x) + "-" + str(y)
         tie_res[key] = res
-## acc
-# r 5-level w=1
-# r 100-level w=1
+## acc best
+# p 5-level w=1
+# p 100-level w=4
 
-## spearman
-# r 5-level w=1
-# r 100-level w=4
+## spearman best
+# p 5-level w=1
+# p 100-level w=4
 
 mode_key = "p"
-level = "5-level"
+level = "100-level"
 
 filter_mode = {
     "wo":{

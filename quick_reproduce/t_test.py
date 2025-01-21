@@ -15,18 +15,18 @@ def t_test(A, B):
 if __name__ == '__main__':
 
     tasks = ['Xsum', 'NF_CATS', 'Dialog']
-    # modes = ['5-level', '100-level', 'pairwise']
-    # modes = ['5-level', '100-level']
-    modes = ['5level', '100level', 'pairwise']
-    # modes = ['pairwise']
-    ms = ['cps', 'g', 'wo']
+    modes = ['5-level', '100-level', 'pairwise']
+    ms = ['cps', 'p', 's', 'g']
 
     task = tasks[2]
+
+    if task == "Dialog":
+        modes = ['5level', '100level', 'pairwise']
 
     for mode in modes:
         for m in ms:
             print(m, mode)
-            gpt4_path = f"./significant_test/{task}/gpt4_{mode}.json"
+            gpt4_path = f"./significant_test/{task}/c_{mode}.json"
             base_path = f"./significant_test/{task}/{m}_{mode}.json"
 
             path1 = gpt4_path
@@ -34,6 +34,7 @@ if __name__ == '__main__':
 
             A = json.loads(open(path1, "r").readlines()[0])["scores"]
             B = json.loads(open(path2, "r").readlines()[0])["scores"]
+            print(len(A), len(B))
             t_test(A, B)
 
             print()

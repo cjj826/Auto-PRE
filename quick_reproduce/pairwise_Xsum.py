@@ -69,7 +69,9 @@ tied_used = True
 aggs = dict()
 answers_agg = dict() # [vote item, nonvote item]
 
-mode_key = "p"
+mode_key = "s"
+
+# acc: cps w=2
 
 filter_mode = {
     "wo":{
@@ -434,7 +436,7 @@ for i in ii_list:
     outputs_llm.append(l)
 acc_agg = cnt_agg / float(len(aggs))
 print(cnt_agg)
-path_out = f"{base_dir}/data-Xsum/pairwise/t_test/{mode_key}_pairwise.json"
+path_out = f"{base_dir}/quick_reproduce/significant_test/Xsum/{mode_key}_pairwise.json"
 f_out = open(path_out, "w")
 line = {"scores": scores}
 line = json.dumps(line)
