@@ -16,9 +16,9 @@ if __name__ == '__main__':
 
     tasks = ['Xsum', 'NF_CATS', 'Dialog']
     modes = ['5-level', '100-level', 'pairwise']
-    ms = ['cps', 'p', 's', 'g']
+    ms = ['cps', 'p', 'g']
 
-    task = tasks[2]
+    task = tasks[1]
 
     if task == "Dialog":
         modes = ['5level', '100level', 'pairwise']

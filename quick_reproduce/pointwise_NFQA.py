@@ -87,11 +87,11 @@ with open(annotation_preference_path) as tie:
         key = str(task_id) + "-" + str(x) + "-" + str(y)
         tie_res[key] = res
 
-mode_key = "g"
+mode_key = "cps"
 level = "100-level"
 
 ## acc best
-# p 5-level w=1
+# p 5-level w=2
 # cps 100-level w=1
 
 ## spearman best
@@ -128,7 +128,7 @@ filter_mode = {
     },
     "p":{
         "evalutors": ['fastchat-t5-3b', 'chatgpt', 'chatglm_pro', 'gpt4'],
-        "mode": 4,
+        "mode": 2,
         "weights": {
             "fastchat-t5-3b":0.8475,
             "chatglm_pro":0.8,
@@ -437,10 +437,10 @@ if __name__ == '__main__':
             if i * j == 0: scores.append(0.5)
             elif i == j: scores.append(1)
             else: scores.append(0)
-        f_out = open(path_out, "w")
-        line = {"scores": scores}
-        line = json.dumps(line)
-        f_out.write(line + "\n")
+        # f_out = open(path_out, "w")
+        # line = {"scores": scores}
+        # line = json.dumps(line)
+        # f_out.write(line + "\n")
 
         print(f"final spearman is {s/100:.4f}")
         print("the agg acc is ", total_acc)
