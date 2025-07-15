@@ -1,5 +1,4 @@
 ## Auto-RPE: An Automatic and Cost-Efficient Peer-Review Framework for Language Generation Evaluation
-This is an automatic LLM evaluation framework based on peer review.
 
 ### Get Started
 
