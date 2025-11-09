@@ -1,5 +1,7 @@
 ## Auto-RPE: An Automatic and Cost-Efficient Peer-Review Framework for Language Generation Evaluation
 
+The official repo for our AAAI'26 Full paper: Auto-RPE: An Automatic and Cost-Efficient Peer-Review Framework for Language Generation Evaluation.
+
 ### Get Started
 
 **Install nessary package:**
@@ -55,3 +57,15 @@ Experiment results on three tasks, summary generation, non-factoid question-answ
 
 ### Reproduce
 To quickly reproduce the results of our paper, you can run the code in the quick_reproduce directory.
+
+### Citations
+If you find our work useful, please do not save your star and cite our work:
+
+```
+@article{chen2024automatic,
+  title={An Automatic and Cost-Efficient Peer-Review Framework for Language Generation Evaluation},
+  author={Chen, Junjie and Su, Weihang and Chu, Zhumin and Li, Haitao and Ai, Qinyao and Liu, Yiqun and Zhang, Min and Ma, Shaoping},
+  journal={arXiv preprint arXiv:2410.12265},
+  year={2024}
+}
+```
